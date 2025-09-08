@@ -33,7 +33,16 @@ p,a,button,li,label,input,select,textarea,span{
     --fs-text: 16px;
 }
 /* 5. Desktop */
-
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url(../img/Rectangle\ 1441.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
 
 /* 6. Estilos responsive Tablet */
 @media screen and (min-whidt: 768px) and (max-whidt: 1080px) {
