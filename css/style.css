@@ -550,12 +550,86 @@ header .bag-button .conter-products{
 }
 
 
+footer{
+    width: 100%;
+    position: relative;
+    padding: 90px;
+    background: #f7f7f7;
+}
+footer .logo1{
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+footer h2{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+footer h3{
+    color: var(--primary-color);
+    font-size: 17px;
+}
+footer p{
+    font-size: var(--fs-text);
+    color: var(--color-dark);
+    width: 310px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color-dark);
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer .info{
+    padding-top: 60px;
+    display: flex;
+}
+
+footer .info a{
+    margin-right: 50px;
+}
+
 /* 6. Estilos responsive Tablet */
-@media screen and (min-whidt: 768px) and (max-whidt: 1080px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+    header{
+        height: 124vh;
+    }
+    #hero{
+        padding: 90px 50px;
+    } 
+
+    #hero p{
+        padding: 40px 30px;
+    }
+
+    #experiences .cont-img img{
+        width: 100%;
+    }
+    #experiences .cont-info p{
+        width: 340px;
+    }
+    #materials .cont-info p{
+        width: 370px;
+    }
+    #materials .cont-img-left img{
+        margin-left: 80px;
+    }
+
+    #materials .cont-img-right img{
+        width: 100%;
+        right: -11px;
+        bottom: -157px;
+    }
+
+
     
 }
 
 /* 7. Estilos responsive Smartphone */
-@media screen and (min-whidt: 320px) and (max-whidt: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     
 }
