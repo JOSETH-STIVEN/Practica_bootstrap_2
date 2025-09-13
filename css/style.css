@@ -622,8 +622,35 @@ footer .info a{
     #materials .cont-img-right img{
         width: 100%;
         right: -11px;
-        bottom: -157px;
+        bottom: -545px;
+        left: -458px;
     }
+
+    #materials .cont-img-left img{
+        margin-bottom: 257px;
+    }
+    #materials .cont-img-left img{
+        width: 189px;
+    }
+
+    .slider-reviews {
+        display: flex;
+        gap: 20px; /* espacio entre tarjetas */
+        padding: 20px 10px;
+        overflow-x: auto;
+    }   
+
+    #reviews .card-review .cont-info p{
+        width: 182px;
+    }
+
+    #reviews .card-review .cont-info{
+        padding-left: 33px;
+    }
+
+ 
+
+
 
 
     
@@ -631,5 +658,109 @@ footer .info a{
 
 /* 7. Estilos responsive Smartphone */
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    
+    /* #hero {
+    padding: 60px 20px; /* Reduce el padding para que entre todo */
+  /* }
+  header .bag-button{
+    position: absolute;
+    margin-left: 326px;
+  }  */
+
+  /* #hero h2 {
+    font-size: 1.5rem;  /* Título más pequeño */
+    /* line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  #hero p {
+    font-size: 0.95rem;  /* Más pequeño pero visible */
+    /* line-height: 1.5;
+    margin-bottom: 25px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }  */
+
+  /* #hero form {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #hero input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+  } */
+/* 
+  #hero button {
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  } */
+    header{
+        height: 100vh;
+    }
+    header .bag-button{
+        display: none;
+        right: 40px;
+    }
+    #hero{
+        padding: 11px 20px;
+    }
+
+    #hero h2{
+        font-size: var(--fs-title2);
+        padding: 0 -4px;
+    }
+
+
+    #hero p{
+        padding: 12px 20px;
+    }
+
+
+    #hero form{
+        width: 390px;
+    }
+
+
+    #hero form input{
+        width: 300px;
+        padding: 10px 30px 10px 10px;
+    }
+
+
+  #experiences .cont-img img{
+    width: 100%
+  }
+  #experiences .cont-info h2{
+    width: 327px;
+  }
+  #experiences .cont-info p {
+    width: 349px;
+  }
+  #materials h2{
+    width: 100%;
+  }
+  #materials .cont-info p{
+    width: 225px;
+  }
+  #materials .cont-img-left img{
+    margin-left: 75px;
+  }
+
+  #materials .cont-img-right img{
+    width: 290px;
+    margin-left: -130px;
+  }
+
+  footer p{
+    width: 190px;
+  }
+
+
 }
+    
